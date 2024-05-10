@@ -1,4 +1,4 @@
-FROM python:3.6.15-slim as base
+FROM python:3.13.0b1-slim as base
 
 ENV LATEST_VERSION v3_13
 ARG VERSION=${LATEST_VERSION}
